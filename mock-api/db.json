@@ -1,0 +1,112 @@
+{
+  "finCodes": [
+    { "value": "123ABC4", "label": "123ABC4" },
+    { "value": "456DEF7", "label": "456DEF7" },
+    { "value": "789GHI0", "label": "789GHI0" },
+    { "value": "321JKL9", "label": "321JKL9" }
+  ],
+  "documentSeries": [
+    { "value": "AZE", "label": "AZE" },
+    { "value": "AA", "label": "AA" },
+    { "value": "BB", "label": "BB" },
+    { "value": "CC", "label": "CC" }
+  ],
+  "genders": [
+    { "value": "male", "label": "Kişi" },
+    { "value": "female", "label": "Qadın" }
+  ],
+  "cities": [
+    { "value": "baku", "label": "Bakı" },
+    { "value": "ganja", "label": "Gəncə" },
+    { "value": "sumgait", "label": "Sumqayıt" },
+    { "value": "mingecevir", "label": "Mingəçevir" },
+    { "value": "shirvan", "label": "Şirvan" },
+    { "value": "nakhchivan", "label": "Naxçıvan" },
+    { "value": "lenkeran", "label": "Lənkəran" },
+    { "value": "yevlakh", "label": "Yevlax" },
+    { "value": "sheki", "label": "Şəki" },
+    { "value": "ali_bayramli", "label": "Əli Bayramlı" }
+  ],
+  "maritalStatuses": [
+    { "value": "single", "label": "Subay" },
+    { "value": "married", "label": "Evli" },
+    { "value": "divorced", "label": "Boşanmış" },
+    { "value": "widowed", "label": "Dul" }
+  ],
+  "nationalities": [
+    { "value": "azeri", "label": "Azərbaycanlı" },
+    { "value": "russian", "label": "Rus" },
+    { "value": "turkish", "label": "Türk" },
+    { "value": "lezgin", "label": "Ləzgi" },
+    { "value": "talysh", "label": "Talış" },
+    { "value": "avar", "label": "Avarlı" }
+  ],
+  "citizenships": [
+    { "value": "az", "label": "Azərbaycan" },
+    { "value": "tr", "label": "Türkiyə" },
+    { "value": "ru", "label": "Rusiya" },
+    { "value": "ge", "label": "Gürcüstan" },
+    { "value": "ir", "label": "İran" },
+    { "value": "other", "label": "Digər" }
+  ],
+  "issuingAuthorities": [
+    { "value": "diaspora", "label": "Azərbaycan Respublikası Diasporla İş üzrə Dövlət Komitəsi" },
+    { "value": "migration", "label": "Dövlət Miqrasiya Xidməti" },
+    { "value": "police", "label": "Polis İdarəsi" },
+    { "value": "consulate", "label": "Konsulluq" }
+  ],
+  "phonePrefixes": [
+    { "value": "050", "label": "050" },
+    { "value": "051", "label": "051" },
+    { "value": "055", "label": "055" },
+    { "value": "070", "label": "070" },
+    { "value": "077", "label": "077" },
+    { "value": "099", "label": "099" }
+  ],
+  "organizations": [
+    { "value": "org1", "label": "Azərbaycan Dövlət Neft Şirkəti (SOCAR)" },
+    { "value": "org2", "label": "Azərbaycan Respublikasının Mərkəzi Bankı" },
+    { "value": "org3", "label": "Azərbaycan Dəmir Yolları" },
+    { "value": "org4", "label": "Bakı Şəhər İcra Hakimiyyəti" },
+    { "value": "org5", "label": "Azərbaycan Respublikası Səhiyyə Nazirliyi" }
+  ],
+  "structuralDivisions": [
+    { "value": "div1", "label": "İnsan Resursları Departamenti", "parentId": "org1" },
+    { "value": "div2", "label": "Maliyyə Departamenti", "parentId": "org1" },
+    { "value": "div3", "label": "Hüquq Şöbəsi", "parentId": "org1" },
+    { "value": "div4", "label": "Kredit Departamenti", "parentId": "org2" },
+    { "value": "div5", "label": "Əməliyyatlar İdarəsi", "parentId": "org2" },
+    { "value": "div6", "label": "Logistika Şöbəsi", "parentId": "org3" },
+    { "value": "div7", "label": "İnzibati İşlər İdarəsi", "parentId": "org4" },
+    { "value": "div8", "label": "Səhiyyə Təşkilatı İdarəsi", "parentId": "org5" }
+  ],
+  "positions": [
+    { "value": "pos1", "label": "HR Mütəxəssisi", "parentId": "div1" },
+    { "value": "pos2", "label": "HR Meneceri", "parentId": "div1" },
+    { "value": "pos3", "label": "Mühasib", "parentId": "div2" },
+    { "value": "pos4", "label": "Maliyyə Analitiki", "parentId": "div2" },
+    { "value": "pos5", "label": "Hüquqşünas", "parentId": "div3" },
+    { "value": "pos6", "label": "Kredit Mütəxəssisi", "parentId": "div4" },
+    { "value": "pos7", "label": "Kassir", "parentId": "div5" },
+    { "value": "pos8", "label": "Logistik", "parentId": "div6" },
+    { "value": "pos9", "label": "Katib", "parentId": "div7" },
+    { "value": "pos10", "label": "Səhiyyə Mütəxəssisi", "parentId": "div8" },
+    { "value": "pos11", "label": "Baş Mütəxəssis", "parentId": "div1" }
+  ],
+  "workTypes": [
+    { "value": "main", "label": "Əsas iş yeri" },
+    { "value": "additional", "label": "Əlavə iş yeri" }
+  ],
+  "civilServantOptions": [
+    { "value": "yes", "label": "Bəli" },
+    { "value": "no", "label": "Xeyr" }
+  ],
+  "terminationReasons": [
+    { "value": "voluntary", "label": "Öz istəyi ilə" },
+    { "value": "agreement", "label": "Tərəflərin razılığı ilə" },
+    { "value": "disciplinary", "label": "İntizam qaydalarının pozulması" },
+    { "value": "reduction", "label": "İxtisarla" },
+    { "value": "health", "label": "Səhhətə görə" },
+    { "value": "other", "label": "Digər" }
+  ]
+}
